@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>PRO Video Timer</h2>
+
+<input type="file" id="videoUpload" accept="video/*">
+
+<div class="video-container">
+  <video id="video" controls></video>
+  <div id="overlayTimer">0 ms</div>
+</div>
+
+<div class="controls">
+  <button id="startBtn">Start</button>
+  <button id="stopBtn">Stop</button>
+  <button id="lapBtn">Lap</button>
+  <button id="exportBtn">Export CSV</button>
+</div>
+
+<h3>Laps</h3>
+<ul id="laps"></ul>
+
+<script src="popup.js"></script>
+</body>
+</html>
